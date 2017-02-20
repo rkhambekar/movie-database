@@ -1,0 +1,37 @@
+label{
+    color:#ff6600;
+    text-align: center;
+}
+
+.form-control{
+    display: inline-block;
+
+}
+
+.center-block{
+    display:block;
+    margin-left: 0 auto;
+    margin-right:0 auto;
+
+}
+
+.font-face {
+    color:#ff6600;
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+.errors{
+    color:#E20707;
+    font-weight:bold;
+
+}
+
+.back-button{
+    display: block;
+    float:right;
+}

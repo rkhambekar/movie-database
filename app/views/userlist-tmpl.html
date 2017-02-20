@@ -1,0 +1,25 @@
+<header>
+    <h2>Users <button type="button" class="btn btn-primary back-button" ng-click="$window.history.back()">Back</button></h2>
+</header>
+<div>
+    <table class="table table-hover">
+        <thead class="font-face">
+        <tr>
+            <th></th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>City</th>
+            <th>Company</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="user in UserListVm.users">
+            <td><a ng-href="#/users/{{user.id}}"><img class="img-circle" ng-src="{{user.profilePic}}" alt="{{user.lastName+ ', ' + user.firstName}}" height="45" width="45"></a></td>
+            <td>{{user.lastName+ ', ' + user.firstName}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.address.city}}</td>
+            <td>{{user.company.name}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,6 +1,3 @@
-/**
- * Created by Aswin on 6/4/2016.
- */
 //An Angular Service to retreive UserList from the backend
 (function() {
     angular.module('myapp')

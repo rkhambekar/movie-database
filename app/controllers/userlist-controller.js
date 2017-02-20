@@ -1,6 +1,3 @@
-/**
- * Created by Aswin on 6/4/2016.
- */
 (function() {
     angular.module('myapp')
         .controller('UserListCtrl', UserListCtrlfn);
